@@ -18,4 +18,43 @@ html {
 
 body {
     font-family: 'Red Hat Display', sans-serif;
+    background: var(--Pale-blue);
+}
+
+/* TITULO */
+
+header img {
+    position: flex;
+    padding-left: 76.0rem;
+
+}
+
+.container {
+    background-color: var(--Very-pale-blue);
+    position: relative;
+    width: 94.0rem;
+    margin: 0 auto;
+    border-radius: 2rem;
+}
+
+h1 {
+    position: relative;
+    font-size: 3.0rem;
+    color: var(--Dark-blue);
+    padding-left: 38.5rem;
+}
+
+.container p {
+    font-size: 1.6rem;
+}
+
+/* SECTION*/
+
+.container h2 {
+    font-size: 1.6rem;
+}
+
+.container h3 {
+    color: var(--Pale-blue);
+    font-size: 1.6rem;
 }
