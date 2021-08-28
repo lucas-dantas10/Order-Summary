@@ -26,7 +26,7 @@ body {
     position: relative;
 }
 
-/* CONTEÚDO */
+/* CONTEÚDO INTEIRO*/
 
 .container {
     position: absolute;
@@ -37,4 +37,70 @@ body {
     background-color: white;
     border-radius: 2.0rem;
     overflow: hidden; /*REVISAR ISSO*/
+}
+
+/* CONTEÚDO DO TEXTO*/
+
+.text-content {
+    padding: 7%;
+    text-align: center;
+}
+
+.title {
+    color: var(--Dark-blue);
+    font-weight: 900;
+    font-size: 2.8rem;
+    margin-bottom: 2.0rem;
+}
+
+.text-content p.subtitle {
+    color: var(--Desaturated-blue);
+    font-size: 1.6rem;
+    margin-bottom: 2.5rem;
+}
+
+/* CONTEUDO DO ANNUAL PLAN*/
+
+.plan-box {
+    background-color: var(--Very-pale-blue);
+    border-radius: 1.2rem;
+    display: flex;
+    padding: 2.5rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.plan-box-left {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.plan-box-left div {
+    margin-left: 2.0rem;
+}
+
+.plan-box-left div h5 {
+    color: var(--Dark-blue);
+    font-weight: 900;
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+}
+
+.plan-box-left div p {
+    color: var(--Desaturated-blue);
+    font-size: 1.6rem;
+}
+
+.plan-box a {
+    font-weight: 900;
+    color: var(--Dark-blue);
+    font-size: 1.6rem;
+}
+
+/*BOTÕES DE PAGAMENTO*/
+
+a.proceed-btn {
+    display: block;
+    text-decoration: none;
 }
