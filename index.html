@@ -14,7 +14,7 @@
   <!--FONTS-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
   
   
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -24,31 +24,41 @@
   </style>
 </head>
 <body>
-  <header>
-    <img src="./images/illustration-hero.svg">
-  </header>
-
   <div class="container">
-    <main>
-      <div>
-        <h1 class="titulo">Order Summary</h1> 
+    <div class="hero">
+      <img src="./images/illustration-hero.svg" alt="Imagem de um herói">
+    </div>
 
-        <p>You can now listen to millions of songs, audiobooks, and podcasts on any 
-        device anywhere you like!</p>
+    <div class="text-content">
+      <h2 class="title">
+        Order Summary
+      </h2>
+      <p class="subtitle">
+        you can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like
+      </p>
+
+      <div class="plan-box">
+        <div class="plan-box-left">
+          <img src="./images/icon-music.svg" alt="Imagem de um fone de ouvido">
+          <div>
+            <h5>
+              Annual Plan
+            </h5>
+            <p>R$59.99/year</p>
+          </div>
+        </div>
+        <a href="/">Change</a>
       </div>
-
-      <section class="content">
-        <h2>Annual Plan</h2>
-        <h3>$59.99/year</h3>
-        <a href="">Change</a>
-      </section>
-      
-      <button>Proceed to Payment</button>
-
-      <button>Cancel Order</button>
-    </main>
+      <a href="/" class="proceed-btn">Proceed to Payment</a>
+      <a href="/" class="cancel-btn">Cancel Order</a>
+    </div>
   </div>
   
+  
+
+
+
+
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Lucas Dantas Nogueira</a>.
