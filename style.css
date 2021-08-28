@@ -18,43 +18,23 @@ html {
 
 body {
     font-family: 'Red Hat Display', sans-serif;
-    background: var(--Pale-blue);
+    min-height: 100vh; /*REVISAR ISSO*/
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: var(--Pale-blue);
+    position: relative;
 }
 
-/* TITULO */
-
-header img {
-    position: flex;
-    padding-left: 76.0rem;
-
-}
+/* CONTEÚDO */
 
 .container {
-    background-color: var(--Very-pale-blue);
-    position: relative;
-    width: 94.0rem;
-    margin: 0 auto;
-    border-radius: 2rem;
-}
-
-h1 {
-    position: relative;
-    font-size: 3.0rem;
-    color: var(--Dark-blue);
-    padding-left: 38.5rem;
-}
-
-.container p {
-    font-size: 1.6rem;
-}
-
-/* SECTION*/
-
-.container h2 {
-    font-size: 1.6rem;
-}
-
-.container h3 {
-    color: var(--Pale-blue);
-    font-size: 1.6rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); /*REVISAR ISSO*/
+    max-width: 45.0rem; /*REVISAR ISSO*/
+    background-color: white;
+    border-radius: 2.0rem;
+    overflow: hidden; /*REVISAR ISSO*/
 }
