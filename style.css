@@ -98,9 +98,40 @@ body {
     font-size: 1.6rem;
 }
 
+.plan-box a:hover {
+    text-decoration: none;
+    color: var(--bright-blue);
+}
+
 /*BOTÕES DE PAGAMENTO*/
 
 a.proceed-btn {
     display: block;
     text-decoration: none;
+    font-size: 1.6rem;
+    border-radius: 1.2rem;
+    color: var(--Very-pale-blue);
+    background: var(--bright-blue);
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin-top: 3.5rem;
+    margin-bottom: 3.0rem;
+    transition: background-color .3s ease;
+}
+
+a.proceed-btn:hover {
+    background-color: var(--Desaturated-blue);
+}
+
+a.cancel-btn {
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: var(--Desaturated-blue);
+    font-weight: 900;
+    margin-bottom: 2.0rem;
+    transition: color .3s ease;
+}
+
+a.cancel-btn:hover {
+    color: var(--Dark-blue);
 }
